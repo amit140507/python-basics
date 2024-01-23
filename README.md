@@ -155,16 +155,17 @@ Precedence order
 
 
 ## Python Lists
-
+```
 mylist = ['apple','grapes','oranges', 'pears', 'guava']
 print(mylist)
+```
 
 | Data Type  | Mutable/Changeable | Ordered | Indexed | Allow Duplicate|
 | ------------- | ------------- | ------------- | ------------- |------------- |
 | List  | Y  | Y  | Y  | Y  |
-| Tuple  | N  | Y  |   | Y  |
+| Tuple  | N  | Y  | - | Y  |
 | Set  |  N  | N  | N  | N  |
-| Dictionary   Y  | Y  | Y  | N  |
+| Dictionary   Y  | Y  | - | N  |
 
 
 
