@@ -30,6 +30,20 @@ x,y,z =fruits
 
 ## Data Types
 
+`Text - str`
+
+`Numeric -  int, float, complex`
+
+`Sequence Type - list, tuple, range`
+
+`Mapping - dict`
+
+`None Type - Nonetype`
+
+`set type - set, fronzenset`
+
+*Note: You can convert int to float and float to int.*
+
 
 
 
