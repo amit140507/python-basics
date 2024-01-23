@@ -79,8 +79,19 @@ a = "Hello World"
 print(a[2:5]) # llo
 
 
-Negative Indexing
-print(a[-5:-2]) # Wor
+**Negative Indexing**
+
+`print(a[-5:-2]) # Wor`
+
+**Modify string**
+
+`
+a = ' Hello World'
+print(a.upper())
+print(a.lower())
+print(a.strip()) # remove whitespace from beginning and end
+print(a.replace("H","j"))  # replace is case sensitive
+`
 
 
 
