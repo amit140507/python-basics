@@ -85,21 +85,28 @@ print(a[2:5]) # llo
 
 **Modify string**
 
-`
+```
 a = ' Hello World'
 print(a.upper())
 print(a.lower())
 print(a.strip()) # remove whitespace from beginning and end
 print(a.replace("H","j"))  # replace is case sensitive
 print(a.split(",")
-`
+```
 **We can combine string and number by using `format()`**
-`
+```
 age =35
 name = 'Amit'
 txt = "My age is {} and name is {}"
 print(txt.format(age, name))
-`
+```
+
+**Using Index**
+
+txt = " I am {0} year old and born in {1}"
+year = 1999
+age = 23
+print(txt.format(age, year))
 
 
 
