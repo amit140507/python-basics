@@ -165,7 +165,7 @@ print(mylist)
 | List  | Y  | Y  | Y  | Y  |
 | Tuple  | N  | Y  | - | Y  |
 | Set  |  N  | N  | N  | N  |
-| Dictionary   Y  | Y  | - | N  |
+| Dictionary |  Y  | Y  | - | N  |
 
 
 
