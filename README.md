@@ -102,23 +102,53 @@ print(txt.format(age, name))
 ```
 
 **Using Index**
-
+```
 txt = " I am {0} year old and born in {1}"
 year = 1999
 age = 23
 print(txt.format(age, year))
+```
 
+**Escape character**
+`\n  - newline`
+`\r  - carriage return`
+`\t  - tab`
+`\b  - backspace`
 
+All string method return new values.They do not change original string.
 
+## Python Operator
 
+``** Exponentiation``
+``// Floor Division``
 
+```
+1. Almost any value is evaluated to True if it has some sort of content.
+2. Any string is True, except empty strings.
+3. Any number is True, except 0.
+4. Any list, tuple, set, and dictionary are True, except empty ones.
+5. In fact, there are not many values that evaluate to False, except empty values, such as (), [], {}, "", the number 0, and the value None. And of course the value False evaluates to False.
+```
 
+Identity Operator are used used to compare objects, not if they are equal, but if they are actually the same object, with the same memory location:
+`is : x is y`
+`is not : x is not y`
 
+Membership Operator are used to test if a sequence is present in an objects:
+`in `
+`not in`
+```
+ x =['apple','banana']
+ print('banana in x)
+```
 
-
-
-
-
+Bitwise opearator
+```
+AND(&) - Sets each bit to 1 if both bits are 1
+OR (|) 	- Sets each bit to 1 if one of two bits is 1
+XOR(^) -	Sets each bit to 1 if only one of two bits is 1	x ^ y	
+NOT(~) -	Inverts all the bits
+```
 
 
 
