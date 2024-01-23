@@ -91,9 +91,15 @@ print(a.upper())
 print(a.lower())
 print(a.strip()) # remove whitespace from beginning and end
 print(a.replace("H","j"))  # replace is case sensitive
+print(a.split(",")
 `
-
-
+**We can combine string and number by using `format()`**
+`
+age =35
+name = 'Amit'
+txt = "My age is {} and name is {}"
+print(txt.format(age, name))
+`
 
 
 
