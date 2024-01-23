@@ -45,12 +45,37 @@ x,y,z =fruits
 *Note: You can convert int to float and float to int.*
 
 
+Random number - python got no random number function.
+`
+import random
+print(random.randrange(1,10))
+print(random.randrange(1,10000000))
+`
 
+**Note: Strings are array**
 
+**Looping through string**
+`
+for x in 'Amit':
+  print(x)
+`
+***get length of string***
+`
+print(len(a))
+`
 
+Check substring in string
 
+`
+txt = "The quick brown fox jumps over the lazy dog"
+if 'a' in txt:
+  print('true')
+`
 
+***Slicing string***
 
+a = "Hello World"
+print(a[2:5]) # llo
 
 
 
