@@ -150,6 +150,34 @@ XOR(^) -	Sets each bit to 1 if only one of two bits is 1	x ^ y
 NOT(~) -	Inverts all the bits
 ```
 
+Precedence order
+![image](https://github.com/amit140507/python-basics/assets/100019842/95147ec3-ebbc-4b01-a729-1902e1f9f2f1)
+
+
+## Python Lists
+
+mylist = ['apple','grapes','oranges', 'pears', 'guava']
+print(mylist)
+
+| Data Type  | Mutable/Changeable | Ordered | Indexed | Allow Duplicate|
+| ------------- | ------------- | ------------- | ------------- |------------- |
+| List  | Y  | Y  | Y  | Y  |
+| Tuple  | N  | Y  |   | Y  |
+| Set  |  N  | N  | N  | N  |
+| Dictionary   Y  | Y  | Y  | N  |
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
