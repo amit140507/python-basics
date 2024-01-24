@@ -154,25 +154,60 @@ Precedence order
 ![image](https://github.com/amit140507/python-basics/assets/100019842/95147ec3-ebbc-4b01-a729-1902e1f9f2f1)
 
 
-| Data Type  | Mutable/Changeable | Ordered | Indexed | Allow Duplicate|
+| Data Type  | Mutable | Ordered | Indexed | Allow Duplicate|
 | ------------- | ------------- | ------------- | ------------- |------------- |
 | List  | Y  | Y  | Y  | Y  |
 | Tuple  | N  | Y  | - | Y  |
-| Set  |  N  | N  | N  | N  |
+| Set  |  Y  | N  | N  | N  |
+| Frozenset  |  N  | N  | N  | N  |
 | Dictionary |  Y  | Y  | - | N  |
 
+> :spiral_notepad: Set items are unchangeable, but you can remove and/or add items whenever you like.
 ## Python Lists
 ```
 mylist = ['apple','grapes','oranges', 'pears', 'guava']
 print(mylist)
 ```
+
 - New item add in the end of list.
 - list has defined order, and that order will not change.
 - we can add or remove items from list after its creation.
 - it is indexed, list can have duplicate values.
 
+**Get length of list**
+```
+print(len(mylist))
+```
 
-**Get length of list
+
+**list can have different data types**
+```
+mylist = ['Amit', 1, True]
+```
+
+**-get data type**
+```
+print(type(mylist))
+```
+**- create new list**
+```
+newlist = list(("apple","banana", "grapes"))
+print(newlist)
+```
+
+**list** `x = ["apple", "banana", "cherry"]`
+
+**tuple** `x = ("apple", "banana", "cherry")`
+
+**range** `x = range(6)`
+
+**set** = `x = {"apple", "banana", "cherry"}`
+
+**dict** `x = {"name" : "John", "age" : 36}`
+
+**frozenset** `x = frozenset({"apple", "banana", "cherry"})`
+
+
 
 
   
