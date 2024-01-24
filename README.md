@@ -207,8 +207,9 @@ print(newlist)
 
 **frozenset** `x = frozenset({"apple", "banana", "cherry"})`
 
-
-
+## Access Items
+- with index
+- 
 
   
 
