@@ -209,9 +209,30 @@ print(newlist)
 
 ## Access Items
 - with index
-- 
+- negative index means start from the end (-1 is last item)
 
-  
+**range of index**
+`
+print(newlist[2:5]
+`
+> Range start from 2(included) and end on 5(not incuded)
+
+**check if item exists**
+`
+if ("apple" in thislist)
+  print("Yes")
+`
+**-Change Item value**
+`
+newlist = ["apple","banana","grapes"]
+newlist[0] = "kiwi"
+print(newlist)
+`
+
+**change range of item values**
+`
+newlist[1:3] = ["kiwi","cocunut"]
+`
 
 
 
