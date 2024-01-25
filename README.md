@@ -242,6 +242,18 @@ newlist[1:3] = ["kiwi","cocunut"]
 thislist.insert(2,"watermelon")
 print(thislist)
 ```
+**Append an item**
+
+```
+thislist.append("orange")
+```
+**To extend elements of another list to the current list, use extend()**
+
+```
+thislist= ['x','y','z']
+newlist = ['a','b','c']
+thislist.extend(newlist)
+```
 
 
 
