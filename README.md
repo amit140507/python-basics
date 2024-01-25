@@ -275,7 +275,14 @@ print(thislist)
 ```
 > **If you don't specify pop method remove the last item**
 
+**del** - keyword also remove the specific index
+del.thislist[0]
+print(thislist)
 
+delete the entire list
+
+`del thislist
+print(thislist)`
 
 
 
