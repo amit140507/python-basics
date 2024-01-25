@@ -253,6 +253,17 @@ thislist.append("orange")
 thislist= ['x','y','z']
 newlist = ['a','b','c']
 thislist.extend(newlist)
+print(thislist)
+```
+
+> **You can use it to extend any  iterable objects(tuple, set, dictionaries)**
+
+**- Remove an item**
+
+```
+newlist = ['a','b','c']
+newlist.remove("a")
+print(newlist)
 ```
 
 
