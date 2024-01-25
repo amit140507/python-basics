@@ -218,22 +218,30 @@ print(newlist[2:5]
 > Range start from 2(included) and end on 5(not incuded)
 
 **check if item exists**
-`
+```
 if ("apple" in thislist)
   print("Yes")
-`
+```
 **-Change Item value**
-`
+```
 newlist = ["apple","banana","grapes"]
 newlist[0] = "kiwi"
 print(newlist)
-`
+```
 
 **change range of item values**
-`
+```
 newlist[1:3] = ["kiwi","cocunut"]
-`
+```
 
+> - if you insert more items that you replace, the new items will be inserted  where you specified and remaining will move accordingly.
+> - If you insert less item than you replace, the new items will insert where you specified and remaining will move accordingly.
+
+**Insert new item without replacing existing items**
+```
+thislist.insert(2,"watermelon")
+print(thislist)
+```
 
 
 
