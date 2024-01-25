@@ -443,7 +443,17 @@ print(list1)
 | reverse()	| Reverses the order of the list |
 | sort()	| Sorts the list |
 
+## tuples
 
+ mutuples = ("apple", "banana","cherry")
+
+-tuple are ordered, unchangeable and allow duplicate values. Tuple are indexed.
+-Order cannot get changed in tuple.
+- tuple are unchangeable
+- tuples are indexed.
+
+  **len()** is used to determine the length of tuple
+  
 
 
 
