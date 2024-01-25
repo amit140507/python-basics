@@ -157,7 +157,7 @@ Precedence order
 | Data Type  | Mutable | Ordered | Indexed | Allow Duplicate|
 | ------------- | ------------- | ------------- | ------------- |------------- |
 | List  | Y  | Y  | Y  | Y  |
-| Tuple  | N  | Y  | - | Y  |
+| Tuple  | N  | Y  | Y | Y  |
 | Set  |  Y  | N  | N  | N  |
 | Frozenset  |  N  | N  | N  | N  |
 | Dictionary |  Y  | Y  | - | N  |
