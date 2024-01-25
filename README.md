@@ -317,17 +317,20 @@ while i < len(thislist):
   print(thislist[i])
   i = i + 1
 ```
-**Looping using list comprhension**
+**Looping using list Comprehension**
 ```
 [print(x) fo x in thilist]
 ```
 
-
-
-
-
-
-
+**List Comprehesion** offer shortest syntax when you want to create a new list based on the values
+```
+fruits = ['apple','banana','grapes','kiwi']
+newlist = []
+for x in fruits:
+  if "a" in x:
+    newlist.append(x)
+print(newlist)
+```
 
 
 
