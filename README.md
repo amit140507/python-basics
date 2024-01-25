@@ -332,12 +332,25 @@ for x in fruits:
 print(newlist)
 ```
 
+```
+newlist = [x for x in fruits if "a" in x]
+print(newlist)
+```
+**syntax**
+>  newlist = [expression for item in iterable if condition]
+> return value is new list, old one remain unchanged.
 
 
+**Filter(if)**
+```
+newlist = [x for x in fruits if x != 'apple']
+print(newlist)
+```
 
-
-
-
+**Iterable**
+```
+newlist = [x for x in range(10)]
+```
 
 
 
