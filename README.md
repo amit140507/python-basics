@@ -377,7 +377,8 @@ Aplhabetically
 ```
 **Case sensitive sort**By default the sort() method is case sensitive, resulting in all capital letters being sorted before lower case letters:
 ```
-thislist.sort(key= str.lower)
+thislist.sort() # case sensitive
+thislist.sort(key= str.lower) # case insensitive
 print(thislist)
 ```
 **Reverse Order** -  reverse current sorting order
@@ -385,6 +386,18 @@ print(thislist)
 thislist.reverse()
 print(thislist)
 ```
+
+
+### Join two lists
+
+### Copy Lists
+> You can't copy by using list1= list2
+**Method 1: copy()**
+
+`mylist = thislist.copy()`
+**Method 2: list()**
+
+`mylist = list(thilist)`
 
 
 
