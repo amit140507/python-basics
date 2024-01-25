@@ -265,6 +265,17 @@ newlist = ['a','b','c']
 newlist.remove("a")
 print(newlist)
 ```
+**POP** - to remove a specific index
+```
+thislist = ['a','b','c','d']
+thislist.pop(1)
+print(thislist)
+thislist.pop()
+print(thislist)
+```
+> **If you don't specify pop method remove the last item**
+
+
 
 
 
