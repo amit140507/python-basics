@@ -282,9 +282,50 @@ print(thislist)
 ```
 **-delete the entire list**
 
-```del thislist
+```
+del thislist
 print(thislist)
 ```
+
+**clear** - to empty the list
+>This list remains but it has no content.
+```
+thislist.clear[]
+print(thislist)
+```
+
+Loop a list
+```
+thislist = ['A','B','C','D']
+for x in thislist:
+  print(x)
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
