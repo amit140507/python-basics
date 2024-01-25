@@ -356,7 +356,7 @@ newlist = [x for x in range(10) if x < 5]
 print(newlist)
 ```
 
-**Expression**
+**Expression** is the current item in the iteration, but it is also the outcome which you can manipulate before it ends up like a list item in the newlist.
 ```
 newlist = [x.upper() for x in fruits]
 print(newlist)
@@ -364,32 +364,27 @@ print(newlist)
 newlist = ['hello' for x in fruits]
 print(newlist)
 ```
+```
+newlist = [x if x != 'apple' else orange for x in fruits]
+print(newlist)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+```
+**Sort list** 
+Aplhabetically
+```
+ thislist.sort() -  ascending
+ thislist.sort(reverse = true) - decending
+```
+**Case sensitive sort**By default the sort() method is case sensitive, resulting in all capital letters being sorted before lower case letters:
+```
+thislist.sort(key= str.lower)
+print(thislist)
+```
+**Reverse Order** -  reverse current sorting order
+```
+thislist.reverse()
+print(thislist)
+```
 
 
 
