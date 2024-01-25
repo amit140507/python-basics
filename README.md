@@ -350,8 +350,20 @@ print(newlist)
 **Iterable**
 ```
 newlist = [x for x in range(10)]
+print(newlist)
+
+newlist = [x for x in range(10) if x < 5]
+print(newlist)
 ```
 
+**Expression**
+```
+newlist = [x.upper() for x in fruits]
+print(newlist)
+
+newlist = ['hello' for x in fruits]
+print(newlist)
+```
 
 
 
