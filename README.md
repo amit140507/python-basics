@@ -452,12 +452,27 @@ print(list1)
 - tuple are unchangeable
 - tuples are indexed.
 
-  **len()** is used to determine the length of tuple
-  
+  ### len() is used to determine the length of tuple
+```
+thistuple = ("apple", "banana", "cherry")
+print(len(thistuple))
+```
 
+**Create tuple with one item**
+To create a tuple with only one item, you have to add a comma after the item, otherwise Python will not recognize it as a tuple.
+```
+thistuple = ("apple",)
+print(type(thistuple))
+```
 
+- tuple can have any data types
+- tuple can have any data type
 
-
+**The tuple() Constructor**
+```
+thistuple = tuple(("apple", "banana", "cherry")) # note the double round-brackets
+print(thistuple)
+```
 
 
 
