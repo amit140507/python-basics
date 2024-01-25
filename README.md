@@ -300,6 +300,28 @@ thislist = ['A','B','C','D']
 for x in thislist:
   print(x)
 ```
+**Looping through  index numbers**
+**range() and len()**
+```
+thislist = ["apple", "banana", "cherry"]
+for i in range(len(thislist)):
+  print(thislist[i])
+```
+
+**Using a While Loop**
+
+```
+thislist = ["apple", "banana", "cherry"]
+i = 0
+while i < len(thislist):
+  print(thislist[i])
+  i = i + 1
+```
+**Looping using list comprhension**
+```
+[print(x) fo x in thilist]
+```
+
 
 
 
