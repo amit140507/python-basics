@@ -387,17 +387,57 @@ thislist.reverse()
 print(thislist)
 ```
 
-
-### Join two lists
-
 ### Copy Lists
 > You can't copy by using list1= list2
+
 **Method 1: copy()**
 
 `mylist = thislist.copy()`
+
 **Method 2: list()**
 
 `mylist = list(thilist)`
+
+
+### Join two lists
+
+using **+** operator
+```
+list1 = ["a", "b", "c"]
+list2 = [1, 2, 3]
+
+list3 = list1 + list2
+print(list3)
+```
+
+using **append**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
