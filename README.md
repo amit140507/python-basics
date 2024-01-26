@@ -474,6 +474,13 @@ thistuple = tuple(("apple", "banana", "cherry")) # note the double round-bracket
 print(thistuple)
 ```
 
+Access tuple items
+
+- using index
+```
+thistuple[1]
+```
+
 
 
 
