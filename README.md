@@ -138,11 +138,11 @@ All string method return new values.They do not change original string.
 
 
 
-1. Almost any value is evaluated to True if it has some sort of content.
-2. Any string is True, except empty strings.
-3. Any number is True, except 0.
-4. Any list, tuple, set, and dictionary are True, except empty ones.
-5. In fact, there are not many values that evaluate to False, except empty values, such as (), [], {}, "", the number 0, and the value None. And of course the value False evaluates to False.
++ Almost any value is evaluated to True if it has some sort of content.
++ Any string is True, except empty strings.
++ Any number is True, except 0.
++ Any list, tuple, set, and dictionary are True, except empty ones.
++ In fact, there are not many values that evaluate to False, except empty values, such as (), [], {}, "", the number 0, and the value None. And of course the value False evaluates to False.
 
 Identity Operator are used used to compare objects, not if they are equal, but if they are actually the same object, with the same memory location:
 `is : x is y`
