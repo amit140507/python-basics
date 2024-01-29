@@ -12,13 +12,19 @@ Can create by just assigning the value or by casting
 4. can only contain alpha numeric and underscore
 5. cannot be python keywords
 
-**Multi variable**   `x,y,z = 'Amit','Inderjeet','Vipul'`
+**Multi variable**   
+```
+x,y,z = 'Amit','Inderjeet','Vipul'
+```
 
-**One value to multiple**  `x=y=z='Amit`
+**One value to multiple**  
+```x=y=z='Amit```
 
 **To unpack a list**
+```
 fruits = ['apple', 'orange', 'pears']
 x,y,z =fruits
+```
 
 **In print you can use comma and plus to output multiple variables**
 
@@ -30,17 +36,17 @@ x,y,z =fruits
 
 ## Data Types
 
-`Text - str`
+**Text** - `str`
 
-`Numeric -  int, float, complex`
+**Numeric** -  `int, float, complex`
 
-`Sequence Type - list, tuple, range`
+**Sequence Type** - `list, tuple, range`
 
-`Mapping - dict`
+**Mapping** - `dict`
 
-`None Type - Nonetype`
+**None Type** - `Nonetype`
 
-`set type - set, fronzenset`
+**set type** - `set, fronzenset`
 
 *Note: You can convert int to float and float to int.*
 
