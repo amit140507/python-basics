@@ -160,8 +160,8 @@ x is not y
 **in**
 **not in**
 ```python
- x =['apple','banana']
- print('banana in x)
+x =['apple','banana']
+print('banana in x)
 ```
 
 **Bitwise opearator**
@@ -184,6 +184,19 @@ Precedence order
 | Dictionary |  Y  | Y  | - | N  |
 
 > :spiral_notepad: Set items are unchangeable, but you can remove and/or add items whenever you like.
+
+**list** `x = ["apple", "banana", "cherry"]`
+
+**tuple** `x = ("apple", "banana", "cherry")`
+
+**range** `x = range(6)`
+
+**set** = `x = {"apple", "banana", "cherry"}`
+
+**dict** `x = {"name" : "John", "age" : 36}`
+
+**frozenset** `x = frozenset({"apple", "banana", "cherry"})`
+
 ## Python Lists
 ```
 mylist = ['apple','grapes','oranges', 'pears', 'guava']
@@ -200,42 +213,28 @@ print(mylist)
 print(len(mylist))
 ```
 
-
 **list can have different data types**
 ```
 mylist = ['Amit', 1, True]
 ```
 
-**-get data type**
+**get data type**
 ```
 print(type(mylist))
 ```
-**- create new list**
+**create new list**
 ```
 newlist = list(("apple","banana", "grapes"))
 print(newlist)
 ```
-
-**list** `x = ["apple", "banana", "cherry"]`
-
-**tuple** `x = ("apple", "banana", "cherry")`
-
-**range** `x = range(6)`
-
-**set** = `x = {"apple", "banana", "cherry"}`
-
-**dict** `x = {"name" : "John", "age" : 36}`
-
-**frozenset** `x = frozenset({"apple", "banana", "cherry"})`
-
-## Access Items
+### Access Items
 - with index
 - negative index means start from the end (-1 is last item)
 
 **range of index**
-`
+```
 print(newlist[2:5]
-`
+```
 > Range start from 2(included) and end on 5(not incuded)
 
 **check if item exists**
@@ -243,13 +242,12 @@ print(newlist[2:5]
 if ("apple" in thislist)
   print("Yes")
 ```
-**-Change Item value**
+**Change Item value**
 ```
 newlist = ["apple","banana","grapes"]
 newlist[0] = "kiwi"
 print(newlist)
 ```
-
 **change range of item values**
 ```
 newlist[1:3] = ["kiwi","cocunut"]
