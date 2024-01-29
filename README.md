@@ -79,11 +79,11 @@ if 'a' in txt:
 ```
 
 ***Slicing string***
-The first character has index 0.
+```
 a = "Hello World"
-
 print(a[2:5]) # llo
-
+```
+> Note: The first character has index 0.
 
 **Negative Indexing**
 
