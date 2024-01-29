@@ -78,7 +78,7 @@ if 'a' in txt:
   print('true')
 ```
 
-***Slicing string***
+**Slicing string**
 ```
 a = "Hello World"
 print(a[2:5]) # llo
@@ -86,13 +86,14 @@ print(a[2:5]) # llo
 > Note: The first character has index 0.
 
 **Negative Indexing**
-
-`print(a[-5:-2]) # Wor`
+```
+print(a[-5:-2]) # Wor
+```
 
 **Modify string**
 
 ```
-a = ' Hello World'
+a = ' Hello,World'
 print(a.upper())
 print(a.lower())
 print(a.strip()) # remove whitespace from beginning and end
