@@ -50,15 +50,14 @@ x,y,z =fruits
 
 *Note: You can convert int to float and float to int.*
 
-
-Random number - python got no random number function.
-`
+**Random number** - python got no random number function.
+```
 import random
 print(random.randrange(1,10))
 print(random.randrange(1,10000000))
-`
+```
 
-**Note: Strings are array**
+>Note: **Strings are array**
 
 **Looping through string**
 `
