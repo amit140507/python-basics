@@ -136,8 +136,6 @@ All string method return new values.They do not change original string.
 
 **`//`** - Floor Division
 
-
-
 + Almost any value is evaluated to True if it has some sort of content.
 + Any string is True, except empty strings.
 + Any number is True, except 0.
@@ -166,10 +164,15 @@ print('banana in x)
 
 **Bitwise opearator**
 
+
 AND(&) - Sets each bit to 1 if both bits are 1
+
 OR (|) 	- Sets each bit to 1 if one of two bits is 1
+
 XOR(^) -	Sets each bit to 1 if only one of two bits is 1	x ^ y	
+
 NOT(~) -	Inverts all the bits
+
 
 Precedence order
 ![image](https://github.com/amit140507/python-basics/assets/100019842/95147ec3-ebbc-4b01-a729-1902e1f9f2f1)
