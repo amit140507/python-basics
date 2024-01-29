@@ -93,12 +93,12 @@ print(a[-5:-2]) # Wor
 **Modify string**
 
 ```
-a = ' Hello,World'
+a = ' Hello:World'
 print(a.upper())
 print(a.lower())
 print(a.strip()) # remove whitespace from beginning and end
 print(a.replace("H","j"))  # replace is case sensitive
-print(a.split(",")
+print(a.split(":"))
 ```
 **We can combine string and number by using `format()`**
 ```
@@ -126,8 +126,8 @@ All string method return new values.They do not change original string.
 
 ## Python Operator
 
-``** Exponentiation``
-``// Floor Division``
+```** - Exponentiation```
+```// - Floor Division```
 
 ```
 1. Almost any value is evaluated to True if it has some sort of content.
