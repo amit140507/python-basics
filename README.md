@@ -12,9 +12,9 @@ Can create by just assigning the value or by casting
 4. can only contain alpha numeric and underscore
 5. cannot be python keywords
 
-**Multi variable** `x,y,z = 'Amit','Inderjeet','Vipul'`
+**Multi variable**   `x,y,z = 'Amit','Inderjeet','Vipul'`
 
-**One value to multiple** `x=y=z='Amit`
+**One value to multiple**  `x=y=z='Amit`
 
 **To unpack a list**
 fruits = ['apple', 'orange', 'pears']
