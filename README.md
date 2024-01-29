@@ -60,22 +60,23 @@ print(random.randrange(1,10000000))
 >Note: **Strings are array**
 
 **Looping through string**
-`
+```
 for x in 'Amit':
   print(x)
-`
-***get length of string***
-`
-print(len(a))
-`
+```
 
-Check substring in string
+**get length of string**
+```
+txt = "The quick brown fox jumps over the lazy dog"
+print(len(txt))
+```
 
-`
+**Check substring in string**
+```
 txt = "The quick brown fox jumps over the lazy dog"
 if 'a' in txt:
   print('true')
-`
+```
 
 ***Slicing string***
 The first character has index 0.
