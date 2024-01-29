@@ -144,6 +144,7 @@ All string method return new values.They do not change original string.
 
 
 **Identity Operator** are used used to compare objects, not if they are equal, but if they are actually the same object, with the same memory location:
+
 **is**
 ```
 x is y
@@ -256,8 +257,8 @@ print(newlist)
 newlist[1:3] = ["kiwi","cocunut"]
 ```
 
-> - if you insert more items that you replace, the new items will be inserted  where you specified and remaining will move accordingly.
-> - If you insert less item than you replace, the new items will insert where you specified and remaining will move accordingly.
+> if you insert more items that you replace, the new items will be inserted  where you specified and remaining will move accordingly.
+> If you insert less item than you replace, the new items will insert where you specified and remaining will move accordingly.
 
 **Insert new item without replacing existing items**
 ```
@@ -265,12 +266,10 @@ thislist.insert(2,"watermelon")
 print(thislist)
 ```
 **Append an item**
-
 ```
 thislist.append("orange")
 ```
 **To extend elements of another list to the current list, use extend()**
-
 ```
 thislist= ['x','y','z']
 newlist = ['a','b','c']
@@ -280,8 +279,7 @@ print(thislist)
 
 > **You can use it to extend any  iterable objects(tuple, set, dictionaries)**
 
-**- Remove an item**
-
+**remove an item**
 ```
 newlist = ['a','b','c']
 newlist.remove("a")
@@ -295,20 +293,18 @@ print(thislist)
 thislist.pop()
 print(thislist)
 ```
-> **If you don't specify pop method remove the last item**
+> **If you don't specify, pop method remove the last item**
 
 **del** - keyword also remove the specific index
 ```
 del.thislist[0]
 print(thislist)
 ```
-**-delete the entire list**
-
+**delete the entire list**
 ```
 del thislist
 print(thislist)
 ```
-
 **clear** - to empty the list
 >This list remains but it has no content.
 ```
@@ -316,7 +312,7 @@ thislist.clear[]
 print(thislist)
 ```
 
-Loop a list
+### Loop a list
 ```
 thislist = ['A','B','C','D']
 for x in thislist:
@@ -329,10 +325,8 @@ thislist = ["apple", "banana", "cherry"]
 for i in range(len(thislist)):
   print(thislist[i])
 ```
-
 **Using a While Loop**
-
-```
+```python
 thislist = ["apple", "banana", "cherry"]
 i = 0
 while i < len(thislist):
@@ -343,7 +337,6 @@ while i < len(thislist):
 ```
 [print(x) fo x in thilist]
 ```
-
 **List Comprehesion** offer shortest syntax when you want to create a new list based on the values
 ```
 fruits = ['apple','banana','grapes','kiwi']
@@ -397,7 +390,7 @@ Aplhabetically
  thislist.sort() -  ascending
  thislist.sort(reverse = true) - decending
 ```
-**Case sensitive sort**By default the sort() method is case sensitive, resulting in all capital letters being sorted before lower case letters:
+**Case sensitive sort** By default the sort() method is case sensitive, resulting in all capital letters being sorted before lower case letters:
 ```
 thislist.sort() # case sensitive
 thislist.sort(key= str.lower) # case insensitive
