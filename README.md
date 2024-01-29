@@ -548,12 +548,57 @@ thistuple += y
 print(thistuple)
 ```
 
+**Remove Items**
+```python
+thistuple = ("apple", "banana", "cherry")
+y =list(thistuple)
+y.remove = ("apple")
+thistuple = tuple(y)
+print(thistuple)
+```
+**Delete** the tuple completely
+```
+thistuple = ("apple", "banana", "cherry")
+del thistuple
+print(thistuple)
+```
 
+### Unpack tuples
+when we create a tuple we normally assign values to it.This is called packing of tuple.
 
+**Packing a tuple**
+```
+fruits = ("apple", "banana", "cherry")
+```
+**Unpacking a tuple**
+```
+fruits = ("apple", "banana", "cherry")
+x,y,z = fruits
+print(x, y, z)
+```
+>The number of variable must match the number of values in the tuple, if not, you must use an asterisk to collect the remaining values as a list.
+Assign the rest of the values as a list called red:
+```
+fruits = ("apple", "banana", "cherry")
+x,*y =  fruits
+print(x)
+print(y)
+```
+> If the asterisk is added to another variable name than te last one, python will assign values to the variable until the number of values left matches the number of vaariable left.
 
+**Loop tuples**
+```python
+thistuple = ("apple", "banana", "cherry")
+for x in thistuple:
+  print(x)
+```
 
-
-
+**Loop through index numbers** using range() of len() function
+```
+thistuple = ("apple", "banana", "cherry")
+for i in range(len(thistuple)):
+  print(thistuple[i])
+```
 
 
 
