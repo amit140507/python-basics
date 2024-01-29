@@ -131,12 +131,11 @@ All string method return new values.They do not change original string.
 
 ## Python Operator
 
-```
-** - Exponentiation
-```
-```
-// - Floor Division
-```
+
+****** - Exponentiation
+
+**//** - Floor Division
+
 
 
 1. Almost any value is evaluated to True if it has some sort of content.
