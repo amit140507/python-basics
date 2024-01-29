@@ -132,9 +132,9 @@ All string method return new values.They do not change original string.
 ## Python Operator
 
 
-****** - Exponentiation
+**`**`** - Exponentiation
 
-**//** - Floor Division
+**`//`** - Floor Division
 
 
 
