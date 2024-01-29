@@ -155,9 +155,13 @@ x is y
 x is not y
 ```
 
-Membership Operator are used to test if a sequence is present in an objects:
-`in `
-`not in`
+**Membership Operator** are used to test if a sequence is present in an objects:
+```
+in
+```
+```
+not in
+```
 ```
  x =['apple','banana']
  print('banana in x)
