@@ -406,13 +406,13 @@ print(thislist)
 > You can't copy by using list1= list2
 
 **Method 1: copy()**
-
-`mylist = thislist.copy()`
-
+```
+mylist = thislist.copy()
+```
 **Method 2: list()**
-
-`mylist = list(thilist)`
-
+```
+mylist = list(thilist)
+```
 
 ### Join two lists
 
@@ -433,7 +433,6 @@ for x in list2:
   list1.append(x)
 print(list1)
 ```
-
 or 
 ```
 list1 = ["a", "b" , "c"]
@@ -457,6 +456,7 @@ print(list1)
 | remove()	| Removes the item with the specified value |
 | reverse()	| Reverses the order of the list |
 | sort()	| Sorts the list |
+
 
 ## tuples
 
