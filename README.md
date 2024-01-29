@@ -144,9 +144,16 @@ All string method return new values.They do not change original string.
 + Any list, tuple, set, and dictionary are True, except empty ones.
 + In fact, there are not many values that evaluate to False, except empty values, such as (), [], {}, "", the number 0, and the value None. And of course the value False evaluates to False.
 
-Identity Operator are used used to compare objects, not if they are equal, but if they are actually the same object, with the same memory location:
-`is : x is y`
-`is not : x is not y`
+
+**Identity Operator** are used used to compare objects, not if they are equal, but if they are actually the same object, with the same memory location:
+**is**
+```
+x is y
+```
+**is not**
+```
+x is not y
+```
 
 Membership Operator are used to test if a sequence is present in an objects:
 `in `
