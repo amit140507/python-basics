@@ -203,7 +203,8 @@ Precedence order
 
 ## Python Lists
 ```
-mylist = ['apple','grapes','oranges', 'pears', 'guava']
+x = ["apple", "banana", "cherry"]
+x = list(("apple", "banana", "cherry"))
 print(mylist)
 ```
 
@@ -459,20 +460,21 @@ print(list1)
 
 
 ## tuples
-
- mutuples = ("apple", "banana","cherry")
+```
+x = ("apple", "banana", "cherry")
+x = tuple(("apple", "banana", "cherry"))
+```
 
 -tuple are ordered, unchangeable and allow duplicate values. Tuple are indexed.
 -Order cannot get changed in tuple.
 - tuple are unchangeable
 - tuples are indexed.
 
-  ### len() is used to determine the length of tuple
+**len()** is used to determine the length of tuple
 ```
 thistuple = ("apple", "banana", "cherry")
 print(len(thistuple))
 ```
-
 **Create tuple with one item**
 To create a tuple with only one item, you have to add a comma after the item, otherwise Python will not recognize it as a tuple.
 ```
@@ -481,16 +483,13 @@ print(type(thistuple))
 ```
 
 - tuple can have any data types
-- tuple can have any data type
 
 **The tuple() Constructor**
 ```
 thistuple = tuple(("apple", "banana", "cherry")) # note the double round-brackets
 print(thistuple)
 ```
-
-Access tuple items
-
+**Access tuple items**
 - using index
 ```
 thistuple[1]
@@ -500,7 +499,6 @@ thistuple[1]
 thistuple = ("apple", "banana", "cherry")
 print(thistuple[-1])
 ```
-
 -Range of Indexes
 ```
 thistuple = ("apple", "banana", "cherry", "orange", "kiwi", "melon", "mango")
@@ -514,25 +512,21 @@ print(thistuple[2:5])
 thistuple = ("apple", "banana", "cherry", "orange", "kiwi", "melon", "mango")
 print(thistuple[-4:-1])
 ```
-
--Check if Item Exists
+**-Check if Item Exists**
 ```
 thistuple = ("apple", "banana", "cherry")
 if "apple" in thistuple:
   print("Yes, 'apple' is in the fruits tuple")
-
 ```
 
 ### Update Tuples
 
 - tuples are unchangeable and immutable
-
-```
-  x = ("apple", "banana", "cherry")
+```python
+x = ("apple", "banana", "cherry")
 y = list(x)
 y[1] = "kiwi"
 x = tuple(y)
-
 print(x)
 ```
 
