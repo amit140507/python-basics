@@ -623,6 +623,66 @@ newfruits = fruits*2
 print(newfruits)
 ```
 
+**Tuple methods**
+
+
+| Method |	Description|
+| ------------- | ------------- |
+| count() |	Returns the number of times a specified value occurs in a tuple |
+| index() |	Searches the tuple for a specified value and returns the position of where it was found |
+
+**count()**
+```
+thistuple = (1, 3, 7, 8, 7, 5, 4, 6, 8, 5)
+x = thistuple.count(5)
+print(x)
+```
+**index()**
+```
+thistuple = (1, 3, 7, 8, 7, 5, 4, 6, 8, 5)
+x = thistuple.index(8)
+print(x)
+```
+
+## Python sets
+```
+x = {"apple", "banana", "cherry"}
+x = set(("apple", "banana", "cherry"))
+```
+> Note: Set items are unchangeable, but you can remove items and add new items.
+> Note: Sets are unordered, so you cannot be sure in which order the items will appear.
+> Set items are unordered, unchangeable, and do not allow duplicate values.
+> Set items can appear in a different order every time you use them, and cannot be referred to by index or key.
+> Sets cannot have two items with the same value.
+> Note: The values True and 1 are considered the same value in sets, and are treated as duplicates.
+> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
