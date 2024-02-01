@@ -599,6 +599,47 @@ thistuple = ("apple", "banana", "cherry")
 for i in range(len(thistuple)):
   print(thistuple[i])
 ```
+**While loop**
+```
+thistuple = ("apple","banana","grapes")
+i=0
+while i<len(thistuple):
+  print(thistuple[i]
+i += 1
+```
+
+**Join Tuples**
+```
+tuple1 = ("a","b","c")
+tuple2 = ("e","f","g")
+tuple3 = tuple1 + tuple2
+print(tuple3)
+```
+
+**Multiply values use * operator**
+```
+fruits =  ("apple","banana","grapes")
+newfruits = fruits*2
+print(newfruits)
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
