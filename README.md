@@ -655,11 +655,33 @@ x = set(("apple", "banana", "cherry"))
 > Set items can appear in a different order every time you use them, and cannot be referred to by index or key.
 > Sets cannot have two items with the same value.
 > Note: The values True and 1 are considered the same value in sets, and are treated as duplicates.
+> Once a set is created, you cannot change its items, but you can remove items and add new items.
+> Set can have any data types
 > 
+**Get the Length of a Set**
+```
+thisset = {"apple", "banana", "cherry"}
+print(len(thisset))
+```
+**Access Items**cannot access items in a set by referring to an index or a key. But you can loop through the set items.
+thisset ={'apple', 'banana','cherry'}
+```
+for x in thisset:
+  print(x)
+```
+```
+thisset = {"apple", "banana", "cherry"}
+print("banana" in thisset)
+```
+**Change Items**
+>Once a set is created, you cannot change its items, but you can add new items.
 
-
-
-
+**Add Items**
+```
+thisset = {"apple", "banana", "cherry"}
+thisset.add("orange")
+print(thisset)
+```
 
 
 
