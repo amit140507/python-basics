@@ -796,8 +796,32 @@ z = x.symmetric_difference(y)
 print(z)
 ```
 
+**isdisjoint()**
+> Return True if no items in set x is present in set y:
+```
+x = {"apple", "banana", "cherry"}
+y = {"google", "microsoft", "facebook"}
+z = x.isdisjoint(y)
+print(z)
+```
 
+**issubset()**
+> Return True if all items in set x are present in set y:
+```
+x = {"a", "b", "c"}
+y = {"f", "e", "d", "c", "b", "a"}
+z = x.issubset(y)
+print(z)
+```
 
+**issuperset()**
+> Return True if all items set y are present in set x:
+```
+x = {"f", "e", "d", "c", "b", "a"}
+y = {"a", "b", "c"}
+z = x.issuperset(y)
+print(z)
+```
 
 **Set Methods**
 |Method|	Description|
@@ -822,14 +846,31 @@ print(z)
 
 
 
+**Dictionaries**
+```
+x = {"name" : "John", "age" : 36}
+x = dict(name="John", age=36)
+```
+```
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+print(thisdict)
+```
+**Dictionary Items**
+> Dictionary items are ordered, changeable, and do not allow duplicates.
+> Dictionary items are presented in key:value pairs, and can be referred to by using the key name.
 
-
-
-
-
-
-
-
+```
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+print(thisdict["brand"])
+```
 
 
 
