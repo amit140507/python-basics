@@ -682,45 +682,38 @@ thisset = {"apple", "banana", "cherry"}
 thisset.add("orange")
 print(thisset)
 ```
+**Add sets**
+```
+thisset = {"apple", "banana", "cherry"}
+tropical = {"pineapple", "mango", "papaya"}
+thisset.update(tropical)
+print(thisset)
+```
 
+**Add Any Iterable**
+The object in the update() method does not have to be a set, it can be any iterable object (tuples, lists, dictionaries etc.).
+```
+thisset = {"apple", "banana", "cherry"}
+mylist = ["kiwi", "orange"]
+thisset.update(mylist)
+print(thisset)
+```
 
+**Remove Item**
+```
+thisset = {"apple", "banana", "cherry"}
+thisset.remove("banana")
+print(thisset)
+```
 
+>Note: If the item to remove does not exist, remove() will raise an error.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+```
+thisset = {"apple", "banana", "cherry"}
+thisset.discard("banana")
+print(thisset)
+```
+>Note: If the item to remove does not exist, discard() will NOT raise an error.
 
 
 
