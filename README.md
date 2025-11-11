@@ -298,7 +298,7 @@ print(thislist)
 
 **del** - keyword also remove the specific index
 ```
-del.thislist[0]
+del thislist[0]
 print(thislist)
 ```
 **delete the entire list**
