@@ -309,7 +309,7 @@ print(thislist)
 **clear** - to empty the list
 >This list remains but it has no content.
 ```
-thislist.clear[]
+thislist.clear()
 print(thislist)
 ```
 
